@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
             it.let { currenciesAdapter.currencies = it }
         })
 
+        currenciesViewModel.retrieveCurrencies()
     }
 
     private fun setupCurrenciesRecycler(){
