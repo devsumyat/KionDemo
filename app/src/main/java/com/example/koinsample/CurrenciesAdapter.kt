@@ -1,10 +1,10 @@
 package com.example.koinsample
 
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.koinsample.model.Currency
+import com.example.koinsample.presentation.CurrencyView
 
 class CurrenciesAdapter : RecyclerView.Adapter<CurrenciesAdapter.ViewHolder>() {
 

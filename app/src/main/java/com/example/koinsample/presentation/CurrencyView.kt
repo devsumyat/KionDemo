@@ -1,14 +1,15 @@
-package com.example.koinsample
+package com.example.koinsample.presentation
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
+import com.example.koinsample.R
+import com.example.koinsample.UriHelper
 import com.example.koinsample.model.Currency
 import kotlinx.android.synthetic.main.view_currency.view.*
 import org.koin.standalone.KoinComponent
 import org.koin.standalone.inject
-import java.util.jar.Attributes
 
 class CurrencyView @JvmOverloads constructor(
     context: Context,
